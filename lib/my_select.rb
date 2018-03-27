@@ -6,8 +6,11 @@ else
   new_array = []
       while i < collection.length
         if collection[i] % 2 == 0
-          new_array << yield(collection[i])
+          yield collection[counter]
+				  new_array << collection[counter]
               i += 1 
+        else
+          
 end
 end
 new_array
