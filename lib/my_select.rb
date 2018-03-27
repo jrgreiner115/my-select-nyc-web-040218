@@ -6,12 +6,12 @@ else
   new_array = []
       while i < collection.length
         if collection[i] % 2 == 0
-          yield collection[counter]
-				  new_array << collection[counter]
+          yield collection[i]
+				  new_array << collection[i]
               i += 1 
         else
-          puts collection[counter]
-				  counter += 1
+          puts collection[i]
+				  i += 1
 end
 end
 new_array
