@@ -10,7 +10,8 @@ else
 				  new_array << collection[counter]
               i += 1 
         else
-          
+          puts collection[counter]
+				  counter += 1
 end
 end
 new_array
